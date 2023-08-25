@@ -8,16 +8,6 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
-
-/*
- *  Assignment 04 
- * CST7284_300
- * Java Object Oriented Programming
- * Student: Kowiy Gidado
- * Professor: Amandeep Kahlon
- * Due Date: Aug 16, 2023
- */
-
 /*
  * Class for converting address data from a CSV file into 
  * latitudinal and longitudinal coordinates using the API, 
@@ -25,7 +15,7 @@ import java.util.List;
  */
 public class DisplayMyAddressOnTheMap {
 	// Google Maps API key
-    private static final String API_KEY = "AIzaSyCif8F5QJGwj_X6EWp7_0uXzfmYkpMsncA";
+    private static final String API_KEY = "My_API_Key";
     //Fetches the coordinates of the address
     private static JSONObject fetchLatLong(Address address) throws IOException {
         String baseUrl = "https://maps.googleapis.com/maps/api/geocode/json";
