@@ -1,12 +1,12 @@
-/* Assignment 2 
- * CST7284_300
- * Java Object Oriented Programming
- * Student: Kowiy Gidado
- * Professor: Amandeep Kahlon
- * Due Date: June 30, 2023
+/* 
  * MyLoggerTest.java
 */
 
+/*
+ The code creates a custom logging tool that captures standard output, adds timestamps
+ to log messages, and demonstrates its functionality by printing various data types with 
+ timestamps, showcasing its capabilities.
+ */
 public class MyLoggerTest {
     public static void main(String[] args) {
     	// Initialize MyLogger class appropriately 

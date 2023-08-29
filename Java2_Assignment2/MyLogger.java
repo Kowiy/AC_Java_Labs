@@ -1,5 +1,4 @@
-/* class: MyLogger.java*/
-
+/*Logger class */
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.text.SimpleDateFormat;
